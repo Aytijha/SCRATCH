@@ -8,6 +8,12 @@
 *.so
 *.dylib
 
+#Configuration data is local to the machine, might be different in production
+.env
+
+#All plaintext returns from Thundertext Client
+thunder-tests/
+
 # Test binary, built with `go test -c`
 *.test
 
